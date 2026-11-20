@@ -1,0 +1,14 @@
+/* :hover / :focus states from the design (style-hover / style-focus) */
+@media (hover:hover){
+.dc2:hover{border-color:#14A3A8 !important;color:#14A3A8 !important}
+.dc3:hover{box-shadow:0 0 28px #FF4128 !important}
+.dc4:hover{opacity:.5 !important}
+.dc5:hover{opacity:.5 !important}
+.dc6:hover{color:#E1301C !important}
+.dc7:hover{border-color:#E1301C !important;color:#E1301C !important}
+.dc8:hover{border-color:#E1301C !important;color:#E1301C !important}
+.dc9:hover{border-color:#E1301C !important;color:#E1301C !important}
+.dc10:hover{box-shadow:0 0 28px #FF4128 !important}
+.dc11:hover{color:#E1301C !important}
+}
+.dc1:focus{top:12px !important;color:#0A0A0A !important}

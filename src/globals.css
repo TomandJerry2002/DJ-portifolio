@@ -1,0 +1,31 @@
+/* Global tokens + resets */
+:root{--ink:#0A0A0A;--ink-2:#141414;--line:#2A2A2A;--mute:#8C8C8C;--paper:#F2F2F2;--paper-dim:#BDBDBD;--signal:#E1301C;--signal-hot:#FF4128;--signal-deep:#6E1206;--teal:#14A3A8;--f-display:'Unbounded',sans-serif;--f-body:'General Sans',sans-serif;--f-mono:'IBM Plex Mono',monospace;--gutter:clamp(20px,4vw,56px);--section-y:clamp(96px,13vw,190px);--max:1440px;--rgb:-2px 0 rgba(225,48,28,.75),2px 0 rgba(242,242,242,.18)}
+
+html,body{margin:0;background:#0A0A0A;color:#F2F2F2;-webkit-font-smoothing:antialiased;scrollbar-width:none;-ms-overflow-style:none}
+
+html::-webkit-scrollbar,body::-webkit-scrollbar{display:none;width:0;height:0}
+
+html.lenis,html.lenis body{height:auto}
+.lenis.lenis-smooth{scroll-behavior:auto!important}
+.lenis.lenis-stopped{overflow:hidden}
+
+html.bb-cursor,html.bb-cursor *{cursor:none!important}
+
+a{color:#F2F2F2;text-decoration:none;transition:color .15s ease}
+a:hover{color:#14A3A8}
+
+button{font:inherit;color:inherit;transition:scale .16s cubic-bezier(.23,1,.32,1)}
+
+button:active:not([data-bkzone]):not(:disabled){scale:.97}
+
+@media (hover:none){[data-hov]{display:none}
+}
+
+::selection{background:#E1301C;color:#0A0A0A}
+
+:focus{outline:none}
+:focus-visible{outline:2px solid #E1301C;outline-offset:3px;box-shadow:0 0 0 5px rgba(225,48,28,.25)}
+
+@media (prefers-reduced-motion:reduce){*,*::before,*::after{transition-duration:.01ms!important;animation-duration:.01ms!important}
+}
+
